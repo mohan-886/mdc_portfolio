@@ -436,14 +436,14 @@ h1 {
   background: linear-gradient(180deg, rgb(21, 40, 72) 0%, rgb(13, 66, 133) 100%);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; /* Keep this */
   font-family: "Poppins", Helvetica;
   font-weight: 700;
   font-size: 70px;
   line-height: normal;
   white-space: normal;
 }
+
 
 .hero-section .dev {
   position: absolute;
@@ -453,14 +453,14 @@ h1 {
   background: linear-gradient(180deg, rgb(21, 40, 72) 0%, rgb(13, 66, 133) 100%);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; /* Correct way */
   font-family: "Poppins", Helvetica;
   font-weight: 700;
   font-size: 70px;
   line-height: normal;
   white-space: normal;
 }
+
 
 /* Subheading paragraph */
 .hero-section .p {
@@ -1369,6 +1369,7 @@ h1 {
     border-radius: 20px;
     overflow: hidden;
 }
+
 
 /* Ensure these new overlaps follow the same layout as overlap-2 and overlap-4 */
 .overlap-6,
