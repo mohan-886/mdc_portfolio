@@ -1160,6 +1160,19 @@ h1 {
   line-height: 24.2px;
 }
 
+.about-us .text-wrapper-17 {
+  position: absolute;
+  width: 284px;
+  top: 168px;
+  left: 305px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #322f2f;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24.2px;
+}
+
 /* ... existing code ... */
 
 .about-us .overlap-2 {
